@@ -1,0 +1,140 @@
+
+.preloader {
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	position: fixed;
+	z-index: 99999;
+	background: #fff;
+}
+
+.preloader .cssload-speeding-wheel {
+	position: absolute;
+	top: calc(50% - 3.5px);
+	left: calc(50% - 3.5px);
+}
+
+/*******************
+/*Top bar
+*******************/
+.topbar {
+	/* background: #13637c; */
+	background: #f5f5f5;
+}
+
+.topbar .navbar-header {
+	background: #006666;
+}
+
+.topbar .top-navbar .navbar-header .navbar-brand .light-logo {
+	display: none;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+.topbar .navbar-light .navbar-nav .nav-item > a.nav-link {
+	color: #000 !important;
+}
+
+.topbar .navbar-light .navbar-nav .nav-item > a.nav-link:hover,
+.topbar .navbar-light .navbar-nav .nav-item > a.nav-link:focus {
+	color: rgba(255, 255, 255, 0.8) !important;
+}
+
+/*******************
+/*General Elements
+*******************/
+a.link:hover,
+a.link:focus {
+	color: #13637c !important;
+}
+
+.bg-theme {
+	background-color: #13637c !important;
+}
+
+.pagination > .active > a,
+.pagination > .active > span,
+.pagination > .active > a:hover,
+.pagination > .active > span:hover,
+.pagination > .active > a:focus,
+.pagination > .active > span:focus {
+	background-color: #13637c;
+	border-color: #13637c;
+}
+
+.right-sidebar .rpanel-title {
+	background: #13637c;
+}
+
+.stylish-table tbody tr:hover,
+.stylish-table tbody tr.active {
+	border-left: 4px solid #13637c;
+}
+
+.text-themecolor {
+	color: #13637c !important;
+}
+
+.profile-tab li a.nav-link.active,
+.customtab li a.nav-link.active {
+	border-bottom: 2px solid #13637c;
+	color: #fff;
+}
+
+.profile-tab li a.nav-link:hover,
+.customtab li a.nav-link:hover {
+color: #fff;
+background-color:#006666;
+}
+
+/*******************
+/*Buttons
+*******************/
+.btn-themecolor,
+.btn-themecolor.disabled {
+	background: #13637c;
+	color: #ffffff;
+	border: 1px solid #13637c;
+}
+
+.btn-themecolor:hover,
+.btn-themecolor.disabled:hover {
+	background: #13637c;
+	opacity: 0.7;
+	border: 1px solid #13637c;
+}
+
+.btn-themecolor.active,
+.btn-themecolor:focus,
+.btn-themecolor.disabled.active,
+.btn-themecolor.disabled:focus {
+	background: #028ee1;
+}
+
+/*******************
+/*sidebar navigation
+*******************/
+.label-themecolor {
+	background: #13637c;
+}
+
+.sidebar-nav > ul > li.active > a {
+	color: #fff;
+	/* border-color: #13637c; */
+	border-color: #3e515a;
+}
+
+.sidebar-nav > ul > li.active > a i {
+	/* color: #13637c; */
+	color: #fff;
+}
+
+.sidebar-nav ul li a.active,
+.sidebar-nav ul li a:hover {
+	color: #cbfcb7;
+}
+
+.sidebar-nav ul li a.active i,
+.sidebar-nav ul li a:hover i {
+	color: #fafdff;
+}
